@@ -1,12 +1,13 @@
 /**
- * Copyright (C) 2016 yanni4night.com
+ * Copyright (C) 2016~2017 yanni4night.com
  * index.js
  *
  * changelog
  * 2016-06-22[14:55:40]:revised
+ * 2017-07-05[18:20:30]:remove v
  *
  * @author yanni4night@gmail.com
- * @version 1.0.0
+ * @version 2.0.0
  * @since 1.0.0
  */
 'use strict';
@@ -37,7 +38,7 @@ module.exports = function gitag(cwd) {
 
         lastLog = lastLog.trim();
 
-        var insertTagCmd = 'git tag -a "v' + version + '" -m "v' + version + ' ' + lastLog + '"'
+        var insertTagCmd = 'git tag -a "' + version + '" -m "' + version + ' ' + lastLog + '"'
 
         child_process.exec(insertTagCmd, {
             encoding: 'utf-8',

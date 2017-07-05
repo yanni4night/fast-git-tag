@@ -1,6 +1,6 @@
 {
     "name": "fast-git-tag",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "description": "Fast git tag command",
     "main": "index.js",
     "bin": {
@@ -28,6 +28,6 @@
     },
     "homepage": "https://github.com/yanni4night/fast-git-tag#readme",
     "dependencies": {
-        "semver": "^5.1.0"
+        "semver": "^5.3.0"
     }
 }

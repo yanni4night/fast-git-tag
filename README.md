@@ -9,7 +9,7 @@ It reads __version__ in _package.json_, last commit log mesasge via:
 
 Then creates a new tag like:
 
->git tag -a "v0.1.0" -m "v0.1.0 the last commit message"
+>git tag -a "0.1.0" -m "0.1.0 the last commit message"
 
 ## usage
 
